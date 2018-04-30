@@ -20,7 +20,6 @@ public class History_Main extends AppCompatActivity {
     public static HistoryAdapter history_adapter;
     public static List<TripDTO> history_trips = new ArrayList<TripDTO>();
     RecyclerView history_rv;
-
     String email;
     ProfileDTO profileDTO;
     ProfileDAOImpl profileDAO;
